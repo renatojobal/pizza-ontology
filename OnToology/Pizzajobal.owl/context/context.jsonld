@@ -1,0 +1,216 @@
+{
+  "@context" : {
+    "OnionTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#OnionTopping"
+    },
+    "ProbeInconsistentTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#ProbeInconsistentTopping"
+    },
+    "AnchovyTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#AnchovyTopping"
+    },
+    "PepperTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#PepperTopping"
+    },
+    "DeepPanBase" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#DeepPanBase"
+    },
+    "hasTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#hasTopping",
+      "@type" : "@id"
+    },
+    "CaperTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#CaperTopping"
+    },
+    "isToppingOf" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#isToppingOf",
+      "@type" : "@id"
+    },
+    "SpicyBeefTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#SpicyBeefTopping"
+    },
+    "MozzarellaTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#MozzarellaTopping"
+    },
+    "MeatTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#MeatTopping"
+    },
+    "Country" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#Country"
+    },
+    "hasCalorificContentValue" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#hasCalorificContentValue"
+    },
+    "ChocolateTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#ChocolateTopping"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "hasSpiciness" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#hasSpiciness",
+      "@type" : "@id"
+    },
+    "HighCaloriePizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#HighCaloriePizza"
+    },
+    "BananaTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#BananaTopping"
+    },
+    "SpicyPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#SpicyPizza"
+    },
+    "AmericanaPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#AmericanaPizza"
+    },
+    "TomatoTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#TomatoTopping"
+    },
+    "SpicinessValuePartition" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#SpicinessValuePartition"
+    },
+    "Medium" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#Medium"
+    },
+    "SohoPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#SohoPizza"
+    },
+    "isBaseOf" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#isBaseOf",
+      "@type" : "@id"
+    },
+    "ThinAndCrispyBase" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#ThinAndCrispyBase"
+    },
+    "PrawnTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#PrawnTopping"
+    },
+    "FourCheesePizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#FourCheesePizza"
+    },
+    "TunaTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#TunaTopping"
+    },
+    "Pizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#Pizza"
+    },
+    "NutellaTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#NutellaTopping"
+    },
+    "SourdoughBread" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#SourdoughBread"
+    },
+    "PizzaTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#PizzaTopping"
+    },
+    "VegetarianPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#VegetarianPizza"
+    },
+    "Mild" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#Mild"
+    },
+    "AmericanHotPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#AmericanHotPizza"
+    },
+    "CheesyPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#CheesyPizza"
+    },
+    "RedPepperTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#RedPepperTopping"
+    },
+    "LowCaloriePizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#LowCaloriePizza"
+    },
+    "JalapenoPepperTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#JalapenoPepperTopping"
+    },
+    "MargheritaPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#MargheritaPizza"
+    },
+    "GreenPepperTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#GreenPepperTopping"
+    },
+    "ValuePartition" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#ValuePartition"
+    },
+    "InterestingPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#InterestingPizza"
+    },
+    "VegetableTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#VegetableTopping"
+    },
+    "MushroomTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#MushroomTopping"
+    },
+    "OliveTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#OliveTopping"
+    },
+    "PepperoniTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#PepperoniTopping"
+    },
+    "SaladTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#SaladTopping"
+    },
+    "CheeseTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#CheeseTopping"
+    },
+    "PizzaBase" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#PizzaBase"
+    },
+    "SeafoodTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#SeafoodTopping"
+    },
+    "HamTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#HamTopping"
+    },
+    "hasIngredient" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#hasIngredient",
+      "@type" : "@id"
+    },
+    "hasBase" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#hasBase",
+      "@type" : "@id"
+    },
+    "ParmezanTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#ParmezanTopping"
+    },
+    "UnclosedPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#UnclosedPizza"
+    },
+    "SweetTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#SweetTopping"
+    },
+    "NonVegetarianPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#NonVegetarianPizza"
+    },
+    "isIngredientOf" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#isIngredientOf",
+      "@type" : "@id"
+    },
+    "Hot" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#Hot"
+    },
+    "SalamiTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#SalamiTopping"
+    },
+    "NutellaPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#NutellaPizza"
+    },
+    "FruitTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#FruitTopping"
+    },
+    "hasCountryOfOrigin" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#hasCountryOfOrigin",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "NutwoodTopping" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#NutwoodTopping"
+    },
+    "NamedPizza" : {
+      "@id" : "http://www.pizzajobal/ontologies/pizzajobal#NamedPizza"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "pizzajobal:ChocolateTopping" "pizzajobal:PrawnTopping" "pizzajobal:HamTopping" "pizzajobal:JalapenoPepperTopping" "pizzajobal:PizzaBase" "pizzajobal:PepperTopping" "pizzajobal:Pizza" "pizzajobal:MeatTopping" "pizzajobal:ValuePartition" "pizzajobal:MushroomTopping" "pizzajobal:NamedPizza" "pizzajobal:NutellaPizza" "pizzajobal:FruitTopping" "pizzajobal:PizzaTopping" "pizzajobal:Hot" "pizzajobal:CheeseTopping" "pizzajobal:ParmezanTopping" "pizzajobal:SweetTopping" "pizzajobal:SaladTopping" "pizzajobal:ProbeInconsistentTopping" "pizzajobal:DeepPanBase" "pizzajobal:MozzarellaTopping" "pizzajobal:FourCheesePizza" "pizzajobal:SpicinessValuePartition" "pizzajobal:OnionTopping" "pizzajobal:TunaTopping" "pizzajobal:BananaTopping" "pizzajobal:SeafoodTopping" "pizzajobal:OliveTopping" "pizzajobal:AmericanHotPizza" "pizzajobal:Medium" "pizzajobal:AnchovyTopping" "pizzajobal:NutwoodTopping" "pizzajobal:NutellaTopping" "pizzajobal:PepperoniTopping" "pizzajobal:MargheritaPizza" "pizzajobal:VegetableTopping" "pizzajobal:GreenPepperTopping" "pizzajobal:ThinAndCrispyBase" "pizzajobal:RedPepperTopping" "pizzajobal:CaperTopping" "pizzajobal:SourdoughBread" "pizzajobal:UnclosedPizza" "pizzajobal:TomatoTopping" "pizzajobal:Mild" "pizzajobal:SalamiTopping" "pizzajobal:SohoPizza" "pizzajobal:AmericanaPizza" "pizzajobal:SpicyBeefTopping" ; /*classes style*/
+	"pizzajobal:BananaTopping" -> "pizzajobal:FruitTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:SweetTopping" -> "pizzajobal:PizzaTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:TomatoTopping" -> "pizzajobal:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:SeafoodTopping" -> "pizzajobal:SaladTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:RedPepperTopping" -> "pizzajobal:PepperTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:HamTopping" -> "pizzajobal:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:AmericanHotPizza" -> "pizzajobal:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:OliveTopping" -> "pizzajobal:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:OnionTopping" -> "pizzajobal:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:MargheritaPizza" -> "pizzajobal:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:Medium" -> "pizzajobal:SpicinessValuePartition" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:ThinAndCrispyBase" -> "pizzajobal:PizzaBase" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:ParmezanTopping" -> "pizzajobal:CheeseTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:FourCheesePizza" -> "pizzajobal:Pizza" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:PrawnTopping" -> "pizzajobal:SeafoodTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:NamedPizza" -> "pizzajobal:Pizza" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:AnchovyTopping" -> "pizzajobal:SeafoodTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:NutellaPizza" -> "pizzajobal:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:ChocolateTopping" -> "pizzajobal:FruitTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:AmericanaPizza" -> "pizzajobal:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:SpicyBeefTopping" -> "pizzajobal:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:Mild" -> "pizzajobal:SpicinessValuePartition" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:UnclosedPizza" -> "pizzajobal:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:MozzarellaTopping" -> "pizzajobal:CheeseTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:SpicinessValuePartition" -> "pizzajobal:ValuePartition" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:MushroomTopping" -> "pizzajobal:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:TunaTopping" -> "pizzajobal:SeafoodTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:Hot" -> "pizzajobal:SpicinessValuePartition" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:MeatTopping" -> "pizzajobal:SaladTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:VegetableTopping" -> "pizzajobal:SaladTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:CaperTopping" -> "pizzajobal:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:SohoPizza" -> "pizzajobal:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:JalapenoPepperTopping" -> "pizzajobal:PepperTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:DeepPanBase" -> "pizzajobal:PizzaBase" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:SaladTopping" -> "pizzajobal:PizzaTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:SalamiTopping" -> "pizzajobal:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:ProbeInconsistentTopping" -> "pizzajobal:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:ProbeInconsistentTopping" -> "pizzajobal:CheeseTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:SourdoughBread" -> "pizzajobal:DeepPanBase" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:PepperTopping" -> "pizzajobal:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:GreenPepperTopping" -> "pizzajobal:PepperTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:CheeseTopping" -> "pizzajobal:SaladTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:PepperoniTopping" -> "pizzajobal:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:NutwoodTopping" -> "pizzajobal:SweetTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:FruitTopping" -> "pizzajobal:SweetTopping" [ label = "rdfs:subClassOf" ];
+	"pizzajobal:NutellaTopping" -> "pizzajobal:FruitTopping" [ label = "rdfs:subClassOf" ];
+
+}
